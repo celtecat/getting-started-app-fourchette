@@ -2,12 +2,11 @@ name: GitHub Micsci
 on:
   push:
     branches:
-      -main
+      - main
 jobs:
   Explore-Github-Actions:
     runs-on: Ubuntu-latest
     steps:
-      -name: Checkout code
-      uses: action/checkout@v3
-      
-run: echo "Je suis le boss"
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - run: echo "Je suis le boss"
