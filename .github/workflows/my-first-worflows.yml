@@ -7,5 +7,7 @@ jobs:
   Explore-Github-Actions:
     runs-on: Ubuntu-latest
     steps:
+      -name: Checkout code
+      uses: action/checkout@v3
       
 run: echo "Je suis le boss"
