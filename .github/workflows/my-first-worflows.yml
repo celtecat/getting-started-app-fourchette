@@ -1,1 +1,11 @@
-# coucouille
+name: GitHub Micsci
+on:
+  push:
+    branches:
+      -main
+jobs:
+  Explore-Github-Actions:
+    runs-on: Ubuntu-latest
+    steps:
+      
+run: echo "Je suis le boss"
