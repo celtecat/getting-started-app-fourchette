@@ -9,7 +9,7 @@ COPY . .
 
 RUN yarn install
 
-Expose le port
+# Expose le port
 EXPOSE 3000
 
 # Commande par défaut pour démarrer l'application
